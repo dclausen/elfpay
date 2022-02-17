@@ -12,7 +12,9 @@ This PR adds the following new features:
 ## Getting started
 ```
 git clone https://github.com/dclausen/elfpay
+cd elfpay
 mix deps.get
+mix ecto.setup
 mix test
 ```
 
