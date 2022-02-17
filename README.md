@@ -1,21 +1,21 @@
 # ElfPay
+Introducing ElfPay, the easiest and fastest way to receive money in Middle-earth. It's the best way to buy all your orc hunting needs. Coming to a storefront in Rivendell soon!
 
-**TODO: Add description**
+This PR adds the following new features:
 
-## Installation
+- creating orders
+- retrieving existing orders
+- searching for orders by customer email
+- applying payments to an existing order
+- creating an order and receiving a payment within a single transaction
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elf_pay` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:elf_pay, "~> 0.1.0"}
-  ]
-end
+## Getting started
+```
+git clone https://github.com/dclausen/elfpay
+mix deps.get
+mix test
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/elf_pay>.
-
+- [x] Typespecs added to public API methods and all are passing.
+- [x] Tests added to public API methods and all are passing.
+- [x] All files formatted via ```mix format```.
