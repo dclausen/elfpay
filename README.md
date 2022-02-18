@@ -9,6 +9,8 @@ This PR adds the following new features:
 - applying payments to an existing order
 - creating an order and receiving a payment within a single transaction
 
+UUIDs were chosen as primary keys for security best practices.
+
 ## Getting started
 ```
 git clone https://github.com/dclausen/elfpay
